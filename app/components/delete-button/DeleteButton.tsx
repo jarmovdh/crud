@@ -35,7 +35,7 @@ export default function DeleteButton({ id }: DeleteButtonProps) {
   };
 
 	return (
-		<button onClick={() => handleDelete(id)}>Delete</button>
+		<button onClick={() => handleDelete(id)}>Delete activity</button>
 	)
 }
 
